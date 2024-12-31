@@ -4,6 +4,7 @@ const AccessLevel = require("../models/AccessLevel");
 const bcrypt = require('bcrypt')
 const saltRounds = 10
 
+
 module.exports = {
   createNewUser: (req, res) => {
     const body = req.body
